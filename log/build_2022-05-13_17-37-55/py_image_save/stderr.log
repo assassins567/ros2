@@ -1,0 +1,5 @@
+  File "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/image_save.py", line 37
+    print e
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(e)?
+

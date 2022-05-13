@@ -1,0 +1,4 @@
+Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save -- -j1 -l1
+Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save' returned '0': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save -- -j1 -l1
+Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save': /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save
+Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save' returned '0': /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save

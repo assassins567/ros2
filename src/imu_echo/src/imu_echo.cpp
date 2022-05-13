@@ -24,8 +24,8 @@ private:
     //RCLCPP_INFO(this->get_logger(), "start to print IMU data ");
     std::string path = "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/data/imu.txt";
     //std_msgs::msg::Header h = msg->Header;
-    double h_time = double(msg->header.stamp.sec) + double(msg->header.stamp.nanosec/1e9);
-    //double h_time = msg->header.stamp.seconds();
+    double h_time = (double(msg->header.stamp.sec) + double(msg->header.stamp.nanosec/1e9)) * 1e9;
+    //double h_time = double(msg->header.stamp.nanosec);
     std::ofstream loop_path_file(path, std::ios::app);
         loop_path_file.setf(std::ios::fixed, std::ios::floatfield);
         loop_path_file.precision(0);

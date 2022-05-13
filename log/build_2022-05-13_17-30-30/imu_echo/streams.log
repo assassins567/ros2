@@ -1,0 +1,26 @@
+[0.044s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.263s] [35m[1mScanning dependencies of target imu_echo[0m
+[0.335s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o[0m
+[7.570s] [100%] [32m[1mLinking CXX executable imu_echo[0m
+[8.392s] [100%] Built target imu_echo
+[8.415s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '0': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[8.440s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo
+[8.458s] -- Install configuration: ""
+[8.501s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo
+[8.516s] -- Set runtime path of "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo" to ""
+[8.516s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/package_run_dependencies/imu_echo
+[8.517s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/parent_prefix_path/imu_echo
+[8.518s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.sh
+[8.518s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.dsv
+[8.519s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.sh
+[8.520s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.dsv
+[8.520s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.bash
+[8.521s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.sh
+[8.521s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.zsh
+[8.522s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.dsv
+[8.523s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.dsv
+[8.536s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/packages/imu_echo
+[8.537s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig.cmake
+[8.538s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig-version.cmake
+[8.538s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.xml
+[8.542s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '0': /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo

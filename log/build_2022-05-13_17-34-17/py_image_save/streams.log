@@ -1,0 +1,26 @@
+[0.902s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/py_image_save': PYTHONPATH=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_image_save build --build-base /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build install --prefix /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save --record /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/install.log --single-version-externally-managed
+[1.135s] running egg_info
+[1.136s] writing ../../build/py_image_save/py_image_save.egg-info/PKG-INFO
+[1.137s] writing dependency_links to ../../build/py_image_save/py_image_save.egg-info/dependency_links.txt
+[1.137s] writing entry points to ../../build/py_image_save/py_image_save.egg-info/entry_points.txt
+[1.138s] writing requirements to ../../build/py_image_save/py_image_save.egg-info/requires.txt
+[1.139s] writing top-level names to ../../build/py_image_save/py_image_save.egg-info/top_level.txt
+[1.171s] reading manifest file '../../build/py_image_save/py_image_save.egg-info/SOURCES.txt'
+[1.172s] writing manifest file '../../build/py_image_save/py_image_save.egg-info/SOURCES.txt'
+[1.173s] running build
+[1.173s] running build_py
+[1.173s] running install
+[1.174s] running install_lib
+[1.176s] byte-compiling /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/image_save.py to image_save.cpython-38.pyc
+[1.177s]   File "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/image_save.py", line 37
+[1.178s]     print e
+[1.178s]           ^
+[1.178s] SyntaxError: Missing parentheses in call to 'print'. Did you mean print(e)?
+[1.178s] 
+[1.179s] running install_data
+[1.179s] running install_egg_info
+[1.181s] removing '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save-0.0.0-py3.8.egg-info' (and everything under it)
+[1.186s] Copying ../../build/py_image_save/py_image_save.egg-info to /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save-0.0.0-py3.8.egg-info
+[1.188s] running install_scripts
+[1.207s] writing list of installed files to '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/install.log'
+[1.229s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/py_image_save' returned '0': PYTHONPATH=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_image_save build --build-base /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build install --prefix /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save --record /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/install.log --single-version-externally-managed

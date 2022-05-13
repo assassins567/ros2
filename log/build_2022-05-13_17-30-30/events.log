@@ -1,0 +1,613 @@
+[0.000000] (-) TimerEvent: {}
+[0.001069] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001152] (image_save) JobQueued: {'identifier': 'image_save', 'dependencies': OrderedDict()}
+[0.001209] (imu_echo) JobQueued: {'identifier': 'imu_echo', 'dependencies': OrderedDict()}
+[0.001464] (py_image_save) JobQueued: {'identifier': 'py_image_save', 'dependencies': OrderedDict()}
+[0.001519] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001576] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.099209] (-) TimerEvent: {}
+[0.149440] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.195842] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.197189] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub', '--', '-j1', '-l1'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.199211] (-) TimerEvent: {}
+[0.299974] (-) TimerEvent: {}
+[0.400429] (-) TimerEvent: {}
+[0.500936] (-) TimerEvent: {}
+[0.601868] (-) TimerEvent: {}
+[0.703401] (-) TimerEvent: {}
+[0.804546] (-) TimerEvent: {}
+[0.904886] (-) TimerEvent: {}
+[1.005489] (-) TimerEvent: {}
+[1.106087] (-) TimerEvent: {}
+[1.207318] (-) TimerEvent: {}
+[1.308609] (-) TimerEvent: {}
+[1.322888] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[1.384987] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[1.403440] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.408706] (-) TimerEvent: {}
+[1.430378] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[1.442518] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[1.494190] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.508973] (-) TimerEvent: {}
+[1.523508] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[1.538364] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[1.540782] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[1.542289] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[1.543955] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[1.551658] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[1.552929] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[1.555856] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[1.557166] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[1.558038] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[1.558931] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[1.559904] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[1.560654] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[1.588232] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[1.591140] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[1.593625] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[1.595069] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[1.600224] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.609127] (-) TimerEvent: {}
+[1.709933] (-) TimerEvent: {}
+[1.734311] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[1.735162] (image_save) JobStarted: {'identifier': 'image_save'}
+[1.745049] (image_save) JobProgress: {'identifier': 'image_save', 'progress': 'cmake'}
+[1.773964] (image_save) JobProgress: {'identifier': 'image_save', 'progress': 'build'}
+[1.774975] (image_save) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save', '--', '-j1', '-l1'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[1.811687] (-) TimerEvent: {}
+[1.914140] (-) TimerEvent: {}
+[1.961877] (image_save) CommandEnded: {'returncode': 0}
+[2.016693] (image_save) JobProgress: {'identifier': 'image_save', 'progress': 'install'}
+[2.017032] (-) TimerEvent: {}
+[2.017878] (image_save) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[2.117142] (-) TimerEvent: {}
+[2.154296] (image_save) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.158508] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/package_run_dependencies/image_save\n'}
+[2.160572] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/parent_prefix_path/image_save\n'}
+[2.163115] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/ament_prefix_path.sh\n'}
+[2.164880] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/ament_prefix_path.dsv\n'}
+[2.166399] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/path.sh\n'}
+[2.168079] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/path.dsv\n'}
+[2.169694] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.bash\n'}
+[2.170940] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.sh\n'}
+[2.172401] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.zsh\n'}
+[2.173511] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.dsv\n'}
+[2.176056] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/package.dsv\n'}
+[2.177223] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/packages/image_save\n'}
+[2.178289] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/cmake/image_saveConfig.cmake\n'}
+[2.186173] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/cmake/image_saveConfig-version.cmake\n'}
+[2.187725] (image_save) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/package.xml\n'}
+[2.196181] (image_save) CommandEnded: {'returncode': 0}
+[2.217336] (-) TimerEvent: {}
+[2.244562] (image_save) JobEnded: {'identifier': 'image_save', 'rc': 0}
+[2.245396] (imu_echo) JobStarted: {'identifier': 'imu_echo'}
+[2.255362] (imu_echo) JobProgress: {'identifier': 'imu_echo', 'progress': 'cmake'}
+[2.279229] (imu_echo) JobProgress: {'identifier': 'imu_echo', 'progress': 'build'}
+[2.283684] (imu_echo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo', '--', '-j1', '-l1'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[2.317502] (-) TimerEvent: {}
+[2.418444] (-) TimerEvent: {}
+[2.508395] (imu_echo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target imu_echo\x1b[0m\n'}
+[2.518856] (-) TimerEvent: {}
+[2.580371] (imu_echo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o\x1b[0m\n'}
+[2.619059] (-) TimerEvent: {}
+[2.719565] (-) TimerEvent: {}
+[2.819961] (-) TimerEvent: {}
+[2.920580] (-) TimerEvent: {}
+[3.020942] (-) TimerEvent: {}
+[3.121234] (-) TimerEvent: {}
+[3.221798] (-) TimerEvent: {}
+[3.322304] (-) TimerEvent: {}
+[3.422749] (-) TimerEvent: {}
+[3.523231] (-) TimerEvent: {}
+[3.623947] (-) TimerEvent: {}
+[3.724441] (-) TimerEvent: {}
+[3.824899] (-) TimerEvent: {}
+[3.925341] (-) TimerEvent: {}
+[4.025785] (-) TimerEvent: {}
+[4.126221] (-) TimerEvent: {}
+[4.226648] (-) TimerEvent: {}
+[4.327748] (-) TimerEvent: {}
+[4.428235] (-) TimerEvent: {}
+[4.528700] (-) TimerEvent: {}
+[4.629203] (-) TimerEvent: {}
+[4.729628] (-) TimerEvent: {}
+[4.830066] (-) TimerEvent: {}
+[4.931250] (-) TimerEvent: {}
+[5.031667] (-) TimerEvent: {}
+[5.132164] (-) TimerEvent: {}
+[5.232646] (-) TimerEvent: {}
+[5.333106] (-) TimerEvent: {}
+[5.433609] (-) TimerEvent: {}
+[5.534095] (-) TimerEvent: {}
+[5.634597] (-) TimerEvent: {}
+[5.737026] (-) TimerEvent: {}
+[5.839659] (-) TimerEvent: {}
+[5.946382] (-) TimerEvent: {}
+[6.051595] (-) TimerEvent: {}
+[6.152087] (-) TimerEvent: {}
+[6.252651] (-) TimerEvent: {}
+[6.359678] (-) TimerEvent: {}
+[6.460208] (-) TimerEvent: {}
+[6.563662] (-) TimerEvent: {}
+[6.664064] (-) TimerEvent: {}
+[6.767826] (-) TimerEvent: {}
+[6.868225] (-) TimerEvent: {}
+[6.968627] (-) TimerEvent: {}
+[7.076983] (-) TimerEvent: {}
+[7.187700] (-) TimerEvent: {}
+[7.290022] (-) TimerEvent: {}
+[7.399632] (-) TimerEvent: {}
+[7.500117] (-) TimerEvent: {}
+[7.600607] (-) TimerEvent: {}
+[7.701120] (-) TimerEvent: {}
+[7.801670] (-) TimerEvent: {}
+[7.902109] (-) TimerEvent: {}
+[8.002679] (-) TimerEvent: {}
+[8.103074] (-) TimerEvent: {}
+[8.203518] (-) TimerEvent: {}
+[8.303954] (-) TimerEvent: {}
+[8.404456] (-) TimerEvent: {}
+[8.504909] (-) TimerEvent: {}
+[8.605361] (-) TimerEvent: {}
+[8.705780] (-) TimerEvent: {}
+[8.806184] (-) TimerEvent: {}
+[8.915641] (-) TimerEvent: {}
+[9.016090] (-) TimerEvent: {}
+[9.116493] (-) TimerEvent: {}
+[9.216879] (-) TimerEvent: {}
+[9.317307] (-) TimerEvent: {}
+[9.418376] (-) TimerEvent: {}
+[9.518814] (-) TimerEvent: {}
+[9.619752] (-) TimerEvent: {}
+[9.720221] (-) TimerEvent: {}
+[9.815212] (imu_echo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_echo\x1b[0m\n'}
+[9.820363] (-) TimerEvent: {}
+[9.920995] (-) TimerEvent: {}
+[10.021771] (-) TimerEvent: {}
+[10.122263] (-) TimerEvent: {}
+[10.222765] (-) TimerEvent: {}
+[10.323446] (-) TimerEvent: {}
+[10.423981] (-) TimerEvent: {}
+[10.524459] (-) TimerEvent: {}
+[10.625782] (-) TimerEvent: {}
+[10.637520] (imu_echo) StdoutLine: {'line': b'[100%] Built target imu_echo\n'}
+[10.659181] (imu_echo) CommandEnded: {'returncode': 0}
+[10.683991] (imu_echo) JobProgress: {'identifier': 'imu_echo', 'progress': 'install'}
+[10.684381] (imu_echo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[10.703108] (imu_echo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.726639] (-) TimerEvent: {}
+[10.746419] (imu_echo) StdoutLine: {'line': b'-- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo\n'}
+[10.760799] (imu_echo) StdoutLine: {'line': b'-- Set runtime path of "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo" to ""\n'}
+[10.761508] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/package_run_dependencies/imu_echo\n'}
+[10.762177] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/parent_prefix_path/imu_echo\n'}
+[10.762793] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.sh\n'}
+[10.763374] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.dsv\n'}
+[10.764098] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.sh\n'}
+[10.764727] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.dsv\n'}
+[10.765302] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.bash\n'}
+[10.765967] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.sh\n'}
+[10.766567] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.zsh\n'}
+[10.767141] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.dsv\n'}
+[10.767814] (imu_echo) StdoutLine: {'line': b'-- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.dsv\n'}
+[10.781480] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/packages/imu_echo\n'}
+[10.782219] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig.cmake\n'}
+[10.782777] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig-version.cmake\n'}
+[10.783377] (imu_echo) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.xml\n'}
+[10.786722] (imu_echo) CommandEnded: {'returncode': 0}
+[10.826815] (-) TimerEvent: {}
+[10.837676] (imu_echo) JobEnded: {'identifier': 'imu_echo', 'rc': 0}
+[10.838575] (py_image_save) JobStarted: {'identifier': 'py_image_save'}
+[10.926978] (-) TimerEvent: {}
+[11.028278] (-) TimerEvent: {}
+[11.128692] (-) TimerEvent: {}
+[11.229182] (-) TimerEvent: {}
+[11.331818] (-) TimerEvent: {}
+[11.432204] (-) TimerEvent: {}
+[11.532616] (-) TimerEvent: {}
+[11.633528] (-) TimerEvent: {}
+[11.734503] (-) TimerEvent: {}
+[11.836251] (-) TimerEvent: {}
+[11.937300] (-) TimerEvent: {}
+[12.038267] (-) TimerEvent: {}
+[12.139767] (-) TimerEvent: {}
+[12.240965] (-) TimerEvent: {}
+[12.341495] (-) TimerEvent: {}
+[12.442078] (-) TimerEvent: {}
+[12.542603] (-) TimerEvent: {}
+[12.645918] (-) TimerEvent: {}
+[12.746971] (-) TimerEvent: {}
+[12.848220] (-) TimerEvent: {}
+[12.949896] (-) TimerEvent: {}
+[13.050422] (-) TimerEvent: {}
+[13.151336] (-) TimerEvent: {}
+[13.251844] (-) TimerEvent: {}
+[13.352333] (-) TimerEvent: {}
+[13.453911] (-) TimerEvent: {}
+[13.554583] (-) TimerEvent: {}
+[13.655819] (-) TimerEvent: {}
+[13.756556] (-) TimerEvent: {}
+[13.859449] (-) TimerEvent: {}
+[13.963609] (-) TimerEvent: {}
+[13.970618] (py_image_save) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_image_save', 'build', '--build-base', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build', 'install', '--prefix', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save', '--record', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/install.log', '--single-version-externally-managed'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/py_image_save', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wy', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '1032', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/wy', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '820', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'wy', 'JOURNAL_STREAM': '8:29237', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'wy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071', 'INVOCATION_ID': '798cd9e321d24f679263ac6494abb82e', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages:'}, 'shell': False}
+[14.063782] (-) TimerEvent: {}
+[14.165982] (-) TimerEvent: {}
+[14.266395] (-) TimerEvent: {}
+[14.375646] (-) TimerEvent: {}
+[14.471774] (py_image_save) StdoutLine: {'line': b'running egg_info\n'}
+[14.472875] (py_image_save) StdoutLine: {'line': b'creating ../../build/py_image_save/py_image_save.egg-info\n'}
+[14.473316] (py_image_save) StdoutLine: {'line': b'writing ../../build/py_image_save/py_image_save.egg-info/PKG-INFO\n'}
+[14.473920] (py_image_save) StdoutLine: {'line': b'writing dependency_links to ../../build/py_image_save/py_image_save.egg-info/dependency_links.txt\n'}
+[14.474324] (py_image_save) StdoutLine: {'line': b'writing entry points to ../../build/py_image_save/py_image_save.egg-info/entry_points.txt\n'}
+[14.475737] (-) TimerEvent: {}
+[14.479679] (py_image_save) StdoutLine: {'line': b'writing requirements to ../../build/py_image_save/py_image_save.egg-info/requires.txt\n'}
+[14.480084] (py_image_save) StdoutLine: {'line': b'writing top-level names to ../../build/py_image_save/py_image_save.egg-info/top_level.txt\n'}
+[14.575885] (-) TimerEvent: {}
+[14.588038] (py_image_save) StdoutLine: {'line': b"writing manifest file '../../build/py_image_save/py_image_save.egg-info/SOURCES.txt'\n"}
+[14.679661] (-) TimerEvent: {}
+[14.690259] (py_image_save) StdoutLine: {'line': b"reading manifest file '../../build/py_image_save/py_image_save.egg-info/SOURCES.txt'\n"}
+[14.691280] (py_image_save) StdoutLine: {'line': b"writing manifest file '../../build/py_image_save/py_image_save.egg-info/SOURCES.txt'\n"}
+[14.695669] (py_image_save) StdoutLine: {'line': b'running build\n'}
+[14.695859] (py_image_save) StdoutLine: {'line': b'running build_py\n'}
+[14.697307] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build\n'}
+[14.697552] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib\n'}
+[14.697752] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib/py_image_save\n'}
+[14.697989] (py_image_save) StdoutLine: {'line': b'copying py_image_save/__init__.py -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib/py_image_save\n'}
+[14.699637] (py_image_save) StdoutLine: {'line': b'copying py_image_save/image_save.py -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib/py_image_save\n'}
+[14.723722] (py_image_save) StdoutLine: {'line': b'running install\n'}
+[14.723886] (py_image_save) StdoutLine: {'line': b'running install_lib\n'}
+[14.723965] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save\n'}
+[14.724038] (py_image_save) StdoutLine: {'line': b'copying /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib/py_image_save/__init__.py -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save\n'}
+[14.724113] (py_image_save) StdoutLine: {'line': b'copying /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/build/lib/py_image_save/image_save.py -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save\n'}
+[14.726194] (py_image_save) StdoutLine: {'line': b'byte-compiling /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/__init__.py to __init__.cpython-38.pyc\n'}
+[14.735679] (py_image_save) StdoutLine: {'line': b'byte-compiling /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/image_save.py to image_save.cpython-38.pyc\n'}
+[14.736219] (py_image_save) StderrLine: {'line': b'  File "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save/image_save.py", line 37\n'}
+[14.736426] (py_image_save) StderrLine: {'line': b'    print e\n'}
+[14.736558] (py_image_save) StderrLine: {'line': b'          ^\n'}
+[14.736711] (py_image_save) StderrLine: {'line': b"SyntaxError: Missing parentheses in call to 'print'. Did you mean print(e)?\n"}
+[14.736835] (py_image_save) StderrLine: {'line': b'\n'}
+[14.736981] (py_image_save) StdoutLine: {'line': b'running install_data\n'}
+[14.737630] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/share/ament_index\n'}
+[14.737855] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/share/ament_index/resource_index\n'}
+[14.738048] (py_image_save) StdoutLine: {'line': b'creating /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/share/ament_index/resource_index/packages\n'}
+[14.738298] (py_image_save) StdoutLine: {'line': b'copying resource/py_image_save -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/share/ament_index/resource_index/packages\n'}
+[14.738593] (py_image_save) StdoutLine: {'line': b'copying package.xml -> /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/share/py_image_save\n'}
+[14.739715] (py_image_save) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.746801] (py_image_save) StdoutLine: {'line': b'Copying ../../build/py_image_save/py_image_save.egg-info to /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save/lib/python3.8/site-packages/py_image_save-0.0.0-py3.8.egg-info\n'}
+[14.747998] (py_image_save) StdoutLine: {'line': b'running install_scripts\n'}
+[14.787651] (-) TimerEvent: {}
+[14.800313] (py_image_save) StdoutLine: {'line': b"writing list of installed files to '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/py_image_save/install.log'\n"}
+[14.888543] (py_image_save) CommandEnded: {'returncode': 0}
+[14.889018] (-) TimerEvent: {}
+[14.916223] (py_image_save) JobEnded: {'identifier': 'py_image_save', 'rc': 0}
+[14.917150] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[14.932942] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[14.964066] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[14.964493] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim', '--', '-j1', '-l1'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[15.041979] (-) TimerEvent: {}
+[15.142413] (-) TimerEvent: {}
+[15.243664] (-) TimerEvent: {}
+[15.315725] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[15.343816] (-) TimerEvent: {}
+[15.405658] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[15.444002] (-) TimerEvent: {}
+[15.503931] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_generator_c\n'}
+[15.550788] (-) TimerEvent: {}
+[15.572623] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[15.649417] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[15.651432] (-) TimerEvent: {}
+[15.752025] (-) TimerEvent: {}
+[15.754452] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[15.851382] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[15.852110] (-) TimerEvent: {}
+[15.911577] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[15.955225] (-) TimerEvent: {}
+[15.955602] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[16.055352] (-) TimerEvent: {}
+[16.097196] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target mimic\n'}
+[16.158810] (-) TimerEvent: {}
+[16.185417] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target draw_square\n'}
+[16.258995] (-) TimerEvent: {}
+[16.267825] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__py\n'}
+[16.334029] (turtlesim) StdoutLine: {'line': b'[ 85%] Built target turtlesim__python\n'}
+[16.359129] (-) TimerEvent: {}
+[16.362487] (turtlesim) StdoutLine: {'line': b'[ 87%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[16.393644] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.429329] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target turtle_teleop_key\n'}
+[16.459284] (-) TimerEvent: {}
+[16.504251] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim_node\n'}
+[16.559670] (-) TimerEvent: {}
+[16.573920] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[16.603983] (turtlesim) CommandEnded: {'returncode': 0}
+[16.659846] (-) TimerEvent: {}
+[16.755827] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[16.756163] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim'], 'cwd': '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'wy'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1032'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/wy'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '820'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'wy'), ('JOURNAL_STREAM', '8:29237'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/wy:@/tmp/.ICE-unix/1071,unix/wy:/tmp/.ICE-unix/1071'), ('INVOCATION_ID', '798cd9e321d24f679263ac6494abb82e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/773bb0af_b761_4550_b6f6_9bd650763e8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=48c2ea14a2b759a46745fb74627e7820'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[16.759970] (-) TimerEvent: {}
+[16.804976] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.805543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[16.805960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.806387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.806781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[16.807137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.807597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[16.808036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[16.808411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[16.808762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[16.809104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.809535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[16.809902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[16.810284] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.810695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[16.811062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[16.811463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[16.811906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[16.812306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[16.812674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[16.813045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[16.813451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[16.813816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.814217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.814634] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[16.815023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[16.815419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.815918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[16.816403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[16.817088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[16.817872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[16.818669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[16.819417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[16.820232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[16.821005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[16.821749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[16.822037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[16.822435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[16.822907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[16.824122] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[16.824827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[16.825618] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[16.826379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[16.827126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[16.827737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[16.828204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[16.828584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[16.829090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[16.830416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[16.831085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[16.831795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[16.832470] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[16.833142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[16.833763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.834217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.834561] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.834983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[16.835776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.836115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.836579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.837267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[16.837781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[16.838303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.838888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.839480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[16.840135] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[16.840600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[16.840912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[16.841143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[16.841936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[16.842106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.842264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.842419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.842611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.842882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[16.844044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.844627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.845151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.845636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.846196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[16.846811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.847360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.848108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.848654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.849233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.849729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.850301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.850821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[16.851379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.852093] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.852630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.853136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.853483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.853664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[16.853901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[16.854221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.854386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.854538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.854689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[16.854840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[16.855689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[16.855862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[16.856021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.856994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.857514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[16.862782] (-) TimerEvent: {}
+[16.863031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[16.863249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[16.863432] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[16.863675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[16.863860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[16.864066] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[16.864234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[16.864412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[16.864575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[16.864737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[16.864929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[16.865097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.865261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.865424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.865587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[16.866224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[16.866391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[16.866552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[16.866711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.867728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[16.867983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.868161] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[16.868331] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[16.868493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[16.868654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[16.868846] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[16.871863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[16.872039] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[16.872204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.872365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[16.872523] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[16.872705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[16.872875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.873034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[16.873456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[16.873623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[16.874048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[16.874221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[16.874382] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[16.874542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[16.874735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[16.874907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[16.875061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[16.875220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[16.875374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[16.875527] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[16.875788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[16.875951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[16.876106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[16.876261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[16.876422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim\n'}
+[16.876601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action\n'}
+[16.876773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[16.879755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[16.879921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.880081] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg\n'}
+[16.880234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[16.880386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[16.880572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.880726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[16.880876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.881027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv\n'}
+[16.881177] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[16.881326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.881513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[16.881669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.881829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[16.881979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.882129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.882278] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.882463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[16.882645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[16.882798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[16.882949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[16.883098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[16.883249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[16.883414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[16.883651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[16.921653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[16.922000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[16.922184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[16.922479] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[16.923835] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[16.924004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[16.925717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[16.925894] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[16.925974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[16.926048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[16.926117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[16.927056] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[16.927162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[16.927238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[16.927317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[16.927481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[16.930918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[16.931097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[16.931252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[16.931357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[16.931427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[16.931495] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[16.932756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.935620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.936899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.937964] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[16.938447] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[16.938696] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[16.939627] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[16.939873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[16.940124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[16.947656] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[16.951644] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[16.952780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[16.953456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[16.955580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[16.955995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[16.956310] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[16.957701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[16.958062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[16.958320] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[16.958584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[16.962993] (-) TimerEvent: {}
+[16.967259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[16.967834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[16.968231] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[16.968435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[16.968954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[16.969062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[16.969144] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[16.969838] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[16.969983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[16.970069] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[16.995106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[17.009810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[17.032917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[17.035321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[17.035985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[17.036257] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[17.036486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[17.036724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[17.036944] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[17.037160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[17.037385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[17.037740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[17.038068] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[17.038436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[17.038916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[17.039280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[17.039953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[17.040314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[17.040688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[17.041037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[17.041392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[17.041800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[17.042165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[17.042526] (turtlesim) StdoutLine: {'line': b'-- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[17.051703] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[17.057376] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[17.057896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.059262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.059850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.061131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[17.061569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.062786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[17.063006] (-) TimerEvent: {}
+[17.064244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.064746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.066090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[17.066531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.066916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[17.067322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.067744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.068128] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.068563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.068950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.069339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.069721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[17.070034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[17.070439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[17.099383] (turtlesim) CommandEnded: {'returncode': 0}
+[17.163171] (-) TimerEvent: {}
+[17.263749] (-) TimerEvent: {}
+[17.333160] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[17.334291] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[0.045s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub -- -j1 -l1
+[0.157s] [ 50%] Built target listener
+[0.189s] [100%] Built target talker
+[0.207s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub -- -j1 -l1
+[0.252s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub
+[0.263s] -- Install configuration: ""
+[0.264s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.265s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.265s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.266s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.266s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.267s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.267s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.267s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.268s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.268s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.269s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.269s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.269s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.270s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.270s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.271s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.271s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.273s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub

@@ -1,0 +1,26 @@
+[0.046s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.200s] [35m[1mScanning dependencies of target imu_echo[0m
+[0.262s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o[0m
+[6.118s] [100%] [32m[1mLinking CXX executable imu_echo[0m
+[6.405s] [100%] Built target imu_echo
+[6.424s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[6.454s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo
+[6.469s] -- Install configuration: ""
+[6.469s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo
+[6.477s] -- Set runtime path of "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/lib/imu_echo/imu_echo" to ""
+[6.478s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/package_run_dependencies/imu_echo
+[6.478s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/parent_prefix_path/imu_echo
+[6.478s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.sh
+[6.479s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/ament_prefix_path.dsv
+[6.479s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.sh
+[6.479s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/environment/path.dsv
+[6.480s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.bash
+[6.480s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.sh
+[6.480s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.zsh
+[6.481s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/local_setup.dsv
+[6.481s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.dsv
+[6.482s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/ament_index/resource_index/packages/imu_echo
+[6.482s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig.cmake
+[6.482s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/cmake/imu_echoConfig-version.cmake
+[6.483s] -- Up-to-date: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/imu_echo/share/imu_echo/package.xml
+[6.485s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/py_image_save:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo
