@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub
+[0.048s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.078s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.308s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.435s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.463s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.596s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.597s] -- Looking for pthread.h
+[0.669s] -- Looking for pthread.h - found
+[0.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.745s] -- Looking for pthread_create in pthreads
+[0.808s] -- Looking for pthread_create in pthreads - not found
+[0.808s] -- Looking for pthread_create in pthread
+[0.883s] -- Looking for pthread_create in pthread - found
+[0.885s] -- Found Threads: TRUE  
+[1.042s] CMake Error at CMakeLists.txt:27 (ament_target_dependecies):
+[1.042s]   Unknown CMake command "ament_target_dependecies".
+[1.042s] 
+[1.042s] 
+[1.044s] -- Configuring incomplete, errors occurred!
+[1.044s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[1.044s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub/CMakeFiles/CMakeError.log".
+[1.054s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub

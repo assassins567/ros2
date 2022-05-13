@@ -1,0 +1,54 @@
+[0.030s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.086s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.118s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.307s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.467s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.515s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.516s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.818s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.867s] Error parsing '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/package.xml':
+[1.906s] Traceback (most recent call last):
+[1.907s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 597, in parse_package_string
+[1.907s]     root = dom.parseString(data)
+[1.907s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[1.907s]     return expatbuilder.parseString(string)
+[1.907s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[1.907s]     return builder.parseString(string)
+[1.907s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[1.908s]     parser.Parse(string, True)
+[1.908s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 7, column 24
+[1.908s] 
+[1.908s] During handling of the above exception, another exception occurred:
+[1.908s] 
+[1.908s] Traceback (most recent call last):
+[1.909s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.909s]     main()
+[1.909s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.909s]     raise e
+[1.909s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.909s]     package = parse_package_string(
+[1.913s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 599, in parse_package_string
+[1.913s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.913s] catkin_pkg.package.InvalidPackage: Error(s) in package '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/package.xml':
+[1.913s] The manifest contains invalid XML:
+[1.914s] not well-formed (invalid token): line 7, column 24
+[1.950s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.950s]   execute_process(/usr/bin/python3
+[1.953s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.953s]   /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/package.xml
+[1.953s]   /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo/ament_cmake_core/package.cmake)
+[1.953s]   returned error code 1
+[1.953s] Call Stack (most recent call first):
+[1.953s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.953s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.953s]   CMakeLists.txt:43 (ament_lint_auto_find_test_dependencies)
+[1.953s] 
+[1.953s] 
+[1.954s] -- Configuring incomplete, errors occurred!
+[1.954s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo/CMakeFiles/CMakeOutput.log".
+[1.954s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo/CMakeFiles/CMakeError.log".
+[1.961s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.964s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '2': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1

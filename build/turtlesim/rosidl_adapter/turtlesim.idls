@@ -1,0 +1,8 @@
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

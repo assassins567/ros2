@@ -1,0 +1,53 @@
+[0.063s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/image_save -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save
+[0.696s] -- The C compiler identification is GNU 9.4.0
+[0.994s] -- The CXX compiler identification is GNU 9.4.0
+[1.034s] -- Check for working C compiler: /usr/bin/cc
+[1.113s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.115s] -- Detecting C compiler ABI info
+[1.234s] -- Detecting C compiler ABI info - done
+[1.247s] -- Detecting C compile features
+[1.261s] -- Detecting C compile features - done
+[1.266s] -- Check for working CXX compiler: /usr/bin/c++
+[1.371s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.372s] -- Detecting CXX compiler ABI info
+[1.469s] -- Detecting CXX compiler ABI info - done
+[1.481s] -- Detecting CXX compile features
+[1.482s] -- Detecting CXX compile features - done
+[1.523s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.589s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.589s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.916s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.138s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.142s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.143s] -- Configured cppcheck include dirs: 
+[2.143s] -- Configured cppcheck exclude dirs and/or files: 
+[2.147s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.147s] -- Configured cpplint exclude dirs and/or files: 
+[2.150s] -- Added test 'lint_cmake' to check CMake code style
+[2.153s] -- Added test 'uncrustify' to check C / C++ code style
+[2.153s] -- Configured uncrustify additional arguments: 
+[2.156s] -- Added test 'xmllint' to check XML markup files
+[2.160s] -- Configuring done
+[2.162s] -- Generating done
+[2.164s] -- Build files have been written to: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save
+[2.171s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/image_save -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save
+[2.172s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save -- -j1 -l1
+[2.222s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save -- -j1 -l1
+[2.261s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save
+[2.273s] -- Install configuration: ""
+[2.297s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/package_run_dependencies/image_save
+[2.297s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/parent_prefix_path/image_save
+[2.298s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/ament_prefix_path.sh
+[2.298s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/ament_prefix_path.dsv
+[2.299s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/path.sh
+[2.299s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/environment/path.dsv
+[2.299s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.bash
+[2.300s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.sh
+[2.300s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.zsh
+[2.301s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/local_setup.dsv
+[2.301s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/package.dsv
+[2.301s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/ament_index/resource_index/packages/image_save
+[2.302s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/cmake/image_saveConfig.cmake
+[2.302s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/cmake/image_saveConfig-version.cmake
+[2.302s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/image_save/share/image_save/package.xml
+[2.306s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save

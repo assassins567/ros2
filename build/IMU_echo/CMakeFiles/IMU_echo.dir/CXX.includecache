@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/IMU_echo/src/IMU_echo.cpp
+cstdio
+-
+

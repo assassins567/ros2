@@ -1,0 +1,86 @@
+[0.016s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.103s] [35m[1mScanning dependencies of target imu_echo[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o[0m
+[1.484s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Imu[m[K’?
+[1.484s]    44 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KImu[m[K>::SharedPtr subscription_;
+[1.484s]       |                                       [01;31m[K^~~[m[K
+[1.484s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[1.484s]                  from [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:8[m[K:
+[1.484s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:216:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Imu[m[K’ declared here
+[1.484s]   216 | using [01;36m[KImu[m[K =
+[1.484s]       |       [01;36m[K^~~[m[K
+[1.485s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::Imu[m[K’?
+[1.485s]    44 |   rclcpp::Subscription<std_msgs::msg::[01;31m[KImu[m[K>::SharedPtr subscription_;
+[1.485s]       |                                       [01;31m[K^~~[m[K
+[1.486s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/imu.hpp:7[m[K,
+[1.486s]                  from [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:8[m[K:
+[1.486s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/imu__struct.hpp:216:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Imu[m[K’ declared here
+[1.486s]   216 | using [01;36m[KImu[m[K =
+[1.486s]       |       [01;36m[K^~~[m[K
+[1.486s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.486s]    44 |   rclcpp::Subscription<std_msgs::msg::Imu[01;31m[K>[m[K::SharedPtr subscription_;
+[1.486s]       |                                          [01;31m[K^[m[K
+[1.486s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.487s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.487s]    44 |   rclcpp::Subscription<std_msgs::msg::Imu>::[01;31m[KSharedPtr[m[K subscription_;
+[1.487s]       |                                             [01;31m[K^~~~~~~~~[m[K
+[1.487s]       |                                                      [32m[K;[m[K
+[1.489s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:44:55:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.489s]    44 |   rclcpp::Subscription<std_msgs::msg::Imu>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.489s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[1.489s]       |                                                       [32m[Krcl_subscription_t[m[K
+[1.492s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:[m[K In constructor ‘[01m[KIMU_echo2txt::IMU_echo2txt()[m[K’:
+[1.493s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.493s]    17 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::Imu>(
+[1.493s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.493s]       |     [32m[Krcl_subscription_t[m[K
+[1.514s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:[m[K In member function ‘[01m[Kvoid IMU_echo2txt::topic_callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.515s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ was not declared in this scope
+[1.515s]    25 |     [01;31m[KString[m[K path = "/home/wy/Documents/MSA/imu.txt";
+[1.515s]       |     [01;31m[K^~~~~~[m[K
+[1.516s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kofstream[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::ofstream[m[K’?
+[1.516s]    27 |     [01;31m[Kofstream[m[K loop_path_file(path, ios::app);
+[1.516s]       |     [01;31m[K^~~~~~~~[m[K
+[1.516s]       |     [32m[Kstd::ofstream[m[K
+[1.516s] In file included from [01m[K/usr/include/c++/9/memory:72[m[K,
+[1.516s]                  from [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:1[m[K:
+[1.517s] [01m[K/usr/include/c++/9/iosfwd:165:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream[m[K’ declared here
+[1.517s]   165 |   typedef basic_ofstream<char>   [01;36m[Kofstream[m[K;
+[1.517s]       |                                  [01;36m[K^~~~~~~~[m[K
+[1.520s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_path_file[m[K’ was not declared in this scope
+[1.520s]    28 |         [01;31m[Kloop_path_file[m[K.setf(ios::fixed, ios::floatfield);
+[1.520s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.520s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:28:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+[1.520s]    28 |         loop_path_file.setf([01;31m[Kios[m[K::fixed, ios::floatfield);
+[1.521s]       |                             [01;31m[K^~~[m[K
+[1.521s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:28:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+[1.521s]    28 |         loop_path_file.setf(ios::fixed, [01;31m[Kios[m[K::floatfield);
+[1.521s]       |                                         [01;31m[K^~~[m[K
+[1.521s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:30:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[1.521s]    30 |         loop_path_file << msg.[01;31m[Kheader[m[K.stamp * 1e9 << ",";
+[1.521s]       |                               [01;31m[K^~~~~~[m[K
+[1.522s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:32:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+[1.522s]    32 |         loop_path_file  << msg.[01;31m[Kangular_velocity[m[K.x() << ","
+[1.522s]       |                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.522s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:33:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+[1.522s]    33 |               << msg.[01;31m[Kangular_velocity[m[K.y() << ","
+[1.523s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.523s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:34:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kangular_velocity[m[K’
+[1.523s]    34 |               << msg.[01;31m[Kangular_velocity[m[K.z() << ","
+[1.523s]       |                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.527s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:36:18:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_acceleration[m[K’ was not declared in this scope
+[1.527s]    36 |               << [01;31m[Klinear_acceleration[m[K.x() << ","
+[1.527s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.528s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:39:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[1.528s]    39 |               << [01;31m[Kendl[m[K;
+[1.528s]       |                  [01;31m[K^~~~[m[K
+[1.528s]       |                  [32m[Kstd::endl[m[K
+[1.528s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[1.529s]                  from [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:2[m[K:
+[1.529s] [01m[K/usr/include/c++/9/ostream:599:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[1.529s]   599 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[1.529s]       |     [01;36m[K^~~~[m[K
+[3.040s] make[2]: *** [CMakeFiles/imu_echo.dir/build.make:63: CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o] Error 1
+[3.046s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_echo.dir/all] Error 2
+[3.046s] make: *** [Makefile:141: all] Error 2
+[3.046s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1

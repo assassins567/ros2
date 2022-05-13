@@ -1,0 +1,8 @@
+source;share/IMU_echo/hook/cmake_prefix_path.ps1
+source;share/IMU_echo/hook/cmake_prefix_path.dsv
+source;share/IMU_echo/hook/cmake_prefix_path.sh
+source;share/IMU_echo/local_setup.bash
+source;share/IMU_echo/local_setup.dsv
+source;share/IMU_echo/local_setup.ps1
+source;share/IMU_echo/local_setup.sh
+source;share/IMU_echo/local_setup.zsh

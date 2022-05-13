@@ -1,0 +1,4 @@
+source;share/IMU_echo/local_setup.bash
+source;share/IMU_echo/local_setup.dsv
+source;share/IMU_echo/local_setup.sh
+source;share/IMU_echo/local_setup.zsh

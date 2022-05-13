@@ -1,0 +1,50 @@
+[0.013s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub
+[0.056s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.284s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.483s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.631s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.699s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.701s] -- Configured cppcheck include dirs: 
+[0.701s] -- Configured cppcheck exclude dirs and/or files: 
+[0.702s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.702s] -- Configured cpplint exclude dirs and/or files: 
+[0.703s] -- Added test 'lint_cmake' to check CMake code style
+[0.704s] -- Added test 'uncrustify' to check C / C++ code style
+[0.704s] -- Configured uncrustify additional arguments: 
+[0.705s] -- Added test 'xmllint' to check XML markup files
+[0.708s] -- Configuring done
+[0.714s] -- Generating done
+[0.716s] -- Build files have been written to: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub
+[0.727s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub
+[0.727s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub -- -j1 -l1
+[0.771s] [35m[1mScanning dependencies of target talker[0m
+[0.890s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.806s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.966s] [100%] Built target talker
+[3.979s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub -- -j1 -l1
+[4.019s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub
+[4.030s] -- Install configuration: ""
+[4.031s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[4.032s] -- Set runtime path of "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[4.032s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[4.033s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[4.033s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[4.033s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[4.034s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[4.034s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[4.034s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[4.034s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[4.035s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[4.035s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[4.035s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[4.036s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[4.036s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[4.036s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[4.037s] -- Installing: /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[4.044s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/cpp_pubsub

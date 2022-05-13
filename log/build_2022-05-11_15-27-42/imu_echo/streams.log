@@ -1,0 +1,42 @@
+[0.012s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.165s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.231s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.540s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.778s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.071s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.123s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.475s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.487s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.508s] -- Looking for pthread.h
+[2.077s] -- Looking for pthread.h - found
+[2.078s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.168s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.169s] -- Looking for pthread_create in pthreads
+[2.269s] -- Looking for pthread_create in pthreads - not found
+[2.270s] -- Looking for pthread_create in pthread
+[2.348s] -- Looking for pthread_create in pthread - found
+[2.350s] -- Found Threads: TRUE  
+[2.706s] CMake Error at CMakeLists.txt:22 (find_package):
+[2.706s]   By not providing "Findsensor_msg.cmake" in CMAKE_MODULE_PATH this project
+[2.707s]   has asked CMake to find a package configuration file provided by
+[2.707s]   "sensor_msg", but CMake did not find one.
+[2.707s] 
+[2.707s]   Could not find a package configuration file provided by "sensor_msg" with
+[2.707s]   any of the following names:
+[2.707s] 
+[2.707s]     sensor_msgConfig.cmake
+[2.707s]     sensor_msg-config.cmake
+[2.707s] 
+[2.708s]   Add the installation prefix of "sensor_msg" to CMAKE_PREFIX_PATH or set
+[2.708s]   "sensor_msg_DIR" to a directory containing one of the above files.  If
+[2.708s]   "sensor_msg" provides a separate development package or SDK, be sure it has
+[2.708s]   been installed.
+[2.708s] 
+[2.708s] 
+[2.710s] -- Configuring incomplete, errors occurred!
+[2.710s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo/CMakeFiles/CMakeOutput.log".
+[2.710s] See also "/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo/CMakeFiles/CMakeError.log".
+[2.716s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[2.718s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '2': /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1

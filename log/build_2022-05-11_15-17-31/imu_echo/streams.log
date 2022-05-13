@@ -1,0 +1,11 @@
+[0.050s] Invoking command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1
+[0.181s] [35m[1mScanning dependencies of target imu_echo[0m
+[0.200s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o[0m
+[0.619s] [01m[K/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/src/imu_echo/src/imu_echo.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.619s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.620s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.620s] compilation terminated.
+[0.632s] make[2]: *** [CMakeFiles/imu_echo.dir/build.make:63: CMakeFiles/imu_echo.dir/src/imu_echo.cpp.o] Error 1
+[0.636s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/imu_echo.dir/all] Error 2
+[0.636s] make: *** [Makefile:141: all] Error 2
+[0.637s] Invoked command in '/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/imu_echo -- -j1 -l1

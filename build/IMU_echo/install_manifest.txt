@@ -1,0 +1,16 @@
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/lib/IMU_echo/IMU_echo
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/ament_index/resource_index/package_run_dependencies/IMU_echo
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/ament_index/resource_index/parent_prefix_path/IMU_echo
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/environment/ament_prefix_path.sh
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/environment/ament_prefix_path.dsv
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/environment/path.sh
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/environment/path.dsv
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/local_setup.bash
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/local_setup.sh
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/local_setup.zsh
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/local_setup.dsv
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/package.dsv
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/ament_index/resource_index/packages/IMU_echo
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/cmake/IMU_echoConfig.cmake
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/cmake/IMU_echoConfig-version.cmake
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/install/IMU_echo/share/IMU_echo/package.xml

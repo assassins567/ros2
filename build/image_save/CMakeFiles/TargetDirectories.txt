@@ -1,0 +1,9 @@
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/install/strip.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/install/local.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/install.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/list_install_components.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/rebuild_cache.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/edit_cache.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/test.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/image_save_uninstall.dir
+/media/wy/7089b057-a6d2-459b-a158-eae994447d5b/MA/ros2_ws/build/image_save/CMakeFiles/uninstall.dir
